@@ -231,6 +231,6 @@ if __name__ == "__main__":
 
 
 # Q5: New Feature Proposal
-# One feature I would add is a filter to show only certain services, like HTTP or SSH.
-# This could use a list comprehension to return only the ports that match the service selected by the user.
+# One feature I would add is a port risk classifier that labels open ports as high, medium, or low risk.
+# This feature could use a nested if-statement to check the port number and assign a risk level based on common dangerous services.
 # Diagram: See diagram_101507702.png in the repository root
